@@ -22,5 +22,26 @@
             MyKey&rsquo;s Latest Shirts
         </h2>
     </div>
+    <!-- Latest Shirts -->
+
+    <div class="row">
+    	<div class="small-3 columns">
+    		<div class="item-wrapper">
+    			<div class="img-wrapper">
+    				<a class="button expanded add-to-cart">
+    					Add to Cart
+    				</a>
+    				<a href="#">
+    					<img src="http://i.imgur.com/Mcw06Yt.png"/>
+    				</a>
+    			</div>
+    			<a href="{{route('shirt')}}">
+    				<h3>kickin write Krakeb Tee </h3>
+    			</a>
+    			<h5></h5>
+    		</div>
+    		
+    	</div>
+    </div>
 
 @endsection
