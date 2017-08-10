@@ -172,11 +172,11 @@ return [
         /*
          * Application Service Providers...
          */
-        App\Providers\AppServiceProvider::class,
-        App\Providers\AuthServiceProvider::class,
-        // App\Providers\BroadcastServiceProvider::class,
-        App\Providers\EventServiceProvider::class,
-        App\Providers\RouteServiceProvider::class,
+        katashop\Providers\AppServiceProvider::class,
+        katashop\Providers\AuthServiceProvider::class,
+        // katashop\Providers\BroadcastServiceProvider::class,
+        katashop\Providers\EventServiceProvider::class,
+        katashop\Providers\RouteServiceProvider::class,
 
     ],
 

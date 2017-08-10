@@ -6,6 +6,17 @@
 	<div class="row">
 		<div class="col-md-8 col-md-offset-2">
 			
+			@if(count($errors))
+	<div class="alert alert-danger">
+		<button type="button" class="close" data-dismiss="alert">&times;</button>
+
+	<ul>
+		@foreach($errors->all() as $error)
+			<li>{{ $error }}</li>
+		@endforeach
+	</ul>
+
+@endif	</div>
 		
 			{!! Form::open(['route' => 'product.store', 'method'=>'post', 'files'=>true])!!}
 				<div class="form-group">

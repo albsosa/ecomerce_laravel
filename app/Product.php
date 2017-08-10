@@ -1,6 +1,6 @@
 <?php
 
-namespace App;
+namespace katashop;
 
 use Illuminate\Database\Eloquent\Model;
 

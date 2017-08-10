@@ -1,9 +1,11 @@
 <?php
 
-namespace App\Http\Controllers;
-use App\Category;
-use App\Product;
+namespace katashop\Http\Controllers;
+use katashop\Category;
+use katashop\Product;
 use Illuminate\Http\Request;
+use katashop\Http\Requests\ProductRequest;
+
 
 
 class ProductsController extends Controller
@@ -35,7 +37,7 @@ class ProductsController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(ProductRequest $request)
     {
         $formInput=$request->except('image');
         $image=$request->image;
